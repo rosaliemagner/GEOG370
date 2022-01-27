@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "walking_path_4326_json",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -80.860247061505433, 35.219013573753578 ], [ -80.860543688243865, 35.219232140823998 ], [ -80.858779539746891, 35.220262528441701 ], [ -80.853971064197637, 35.223603482232413 ] ] ] } }
+]
+}
