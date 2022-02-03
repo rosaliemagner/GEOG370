@@ -8,51 +8,77 @@
 <body>
     <h1>In this project I learned how to display images in different projections</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <h2 style="color:red">How?/h2>
+    <p>I was able to use QGIS to display how different projections distort various features of a map. By
+        implementing the Indicatrix Mapper plugin, I projected a grid of circles and latitude longitude
+        lines onto the map. When the projection was changed, the circles changed in the same way as the 
+        features in that area of that map, providing an easier visualization of what was being distorted
+        and where. The maps projected below show how various projections distorted either shape, area, 
+        distance, and/or direction.
+
+    </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is most accurate around the equator. As we move towards the poles, shape and area
+        become distorted while the distance and direction remain the same. </h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The most accurate projection is around the prime meridian, though towards the pole, area and shape
+        become slightly distorted. As we move away from the prime meridian and equator, all of the features
+        become distorted.
+    </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>Pseudo-Mercator</h2>
-    <h3>Some observations</h3>
+    <h3>The equator is the most accurate projection and as we move towards the poles distance and area
+        change while shape and direction remain accurate.
+    </h3>
     <a href="./maps/3857.png">
     <img src="./maps/3857.png" alt="WGS84" width='500px'>
     </a>
     <h2>Sphere Winkel</h2>
-    <h3>Some observations</h3>
+    <h3>The most accurate projection is near the poles on the prime meridian. As we move away from this
+        region shape, direction, and distance become distorted.
+    </h3>
     <a href="./maps/53018.png">
     <img src="./maps/53018.png" alt="Sphere Winkel" width='500px'>
     </a>
     <h2>World Cylindrical Equal Area</h2>
-    <h3>Some observations</h3>
+    <h3>The region along the equator remains the most accurate. Moving along the latititude, shape
+        becomes severly distorted and distance becomes slightly distorted, while direction is preserved.
+    </h3>
     <a href="./maps/54034.png">
     <img src="./maps/54034.png" alt="World Cylindrical Equal Area" width='500px'>
     </a>
     <h2>World Equidistant Conic</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is the most accurate around the northern pole. As we move towards the equator,
+        shape and area become very distorted, while direction becomes slightly distorted and distance 
+        remains accurate.
+    </h3>
     <a href="./maps/54027.png">
     <img src="./maps/54027.png" alt="World Equidistant Conic" width='500px'>
     </a>
     <h2>North Pole Azimuthal Equidistant</h2>
-    <h3>Some observations</h3>
+    <h3>Similar to the last projection, as we move away from the north pole, shape and area become very 
+        distorted, however, distance and direction remain accurate in this projection.
+    </h3>
     <a href="./maps/102016.png">
     <img src="./maps/102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
     <h2>World Van der Grinten</h2>
-    <h3>Some observations</h3>
+    <h3>The most accurate area in this projection is near the intersection of the equator and prime
+        meridian and as we move away from this point, all four features become more distorted.
+    </h3>
     <a href="./maps/54029.png">
     <img src="./maps/54029.png" alt="World Van der Grinten" width='500px'>
     </a>
     <h2>Sphere Eckert II</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is the most accurate towards the poles, along the prime meridian. As we move 
+        away from this area, shape and direction beocme distorted while distance and area remain the same.
+    </h3>
     <a href="./maps/53014.png">
     <img src="./maps/53014.png" alt="Sphere Eckert" width='500px'>
     </a>
